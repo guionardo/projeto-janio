@@ -1,12 +1,13 @@
 # projeto-janio
 Projeto para ajudar o colega Janio, na EngSoft2016
 
-Desenvolvido usando Object Pascal, no Lazarus/FreePascal. 
+Desenvolvido usando Object Pascal, no Lazarus/FreePascal [https://www.lazarus-ide.org/].
 
 
 Modelar um banco com 
 
-## Cadastro de usuário Sistema:
+## [*] Cadastro de usuário Sistema:
+
 
 * _Número identificação Usuário do Sistema_
 * Nome Completo
