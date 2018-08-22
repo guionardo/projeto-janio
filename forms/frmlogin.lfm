@@ -4,5 +4,24 @@ object Form1: TForm1
   Top = 210
   Width = 320
   Caption = 'Form1'
-  LCLVersion = '1.8.0.6'
+  LCLVersion = '1.8.4.0'
+  object MSSQLConnection1: TMSSQLConnection
+    Connected = False
+    LoginPrompt = False
+    DatabaseName = 'TestDB'
+    KeepConnection = False
+    Password = 'Guio48465626'
+    UserName = 'SA'
+    HostName = '172.17.0.2'
+    left = 155
+    top = 17
+  end
+  object SQLConnector1: TSQLConnector
+    Connected = False
+    LoginPrompt = False
+    KeepConnection = False
+    ConnectorType = 'MSSQLServer'
+    left = 181
+    top = 92
+  end
 end
