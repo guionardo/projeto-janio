@@ -1,12 +1,12 @@
 CREATE TABLE agenda (
-        datahora datetime NOT NULL,
-        idespecialidade int NOT NULL,
-        idprofissional int NOT NULL,
-        presenca char(1),
+        datahora datetime NOT NULL default current_timestamp,
+        idespecialidade int NOT NULL default 0,
+        idprofissional int NOT NULL default 0,
+        presenca char(1) default '0',
 	dathorinclusao datetime default current_timestamp,
-	dathoralteracao datetime,
-	idusuarioinclusao int,
-	idusuarioalteracao int,
+	dathoralteracao datetime default '',
+	idusuarioinclusao int default 0,
+	idusuarioalteracao int default 0
 	PRIMARY KEY (datahora,idespecialidade,idprofissional)
 );
 

@@ -1,11 +1,11 @@
 CREATE TABLE especialidade (
         id int NOT NULL identity(1,1) primary key,
-	nome varchar(255) NOT NULL,
-	sigla varchar(10) NOT NULL,
+	nome varchar(255) NOT NULL default '',
+	sigla varchar(10) NOT NULL default '',
 	dathorinclusao datetime default current_timestamp,
-	dathoralteracao datetime(3),
-	idusuarioinclusao int,
-	idusuarioalteracao int
+	dathoralteracao datetime default '',
+	idusuarioinclusao int default 0,
+	idusuarioalteracao int default 0
 );
 
 CREATE TRIGGER especialidade_update on especialidade

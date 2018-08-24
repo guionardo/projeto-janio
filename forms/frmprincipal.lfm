@@ -4,6 +4,17 @@ object Form2: TForm2
   Top = 363
   Width = 320
   Caption = 'Principal'
+  ClientHeight = 240
+  ClientWidth = 320
   OnShow = FormShow
   LCLVersion = '1.8.0.6'
+  object btnTeste: TButton
+    Left = 63
+    Height = 25
+    Top = 106
+    Width = 75
+    Caption = 'btnTeste'
+    OnClick = btnTesteClick
+    TabOrder = 0
+  end
 end

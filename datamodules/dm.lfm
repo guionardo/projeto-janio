@@ -1,0 +1,17 @@
+object dm1: Tdm1
+  OldCreateOrder = False
+  Height = 150
+  HorizontalOffset = 256
+  VerticalOffset = 210
+  Width = 150
+  PPI = 96
+  object ZConn: TZConnection
+    ControlsCodePage = cCP_UTF8
+    HostName = 'localhost\SQLEXPRESS'
+    Port = 0
+    Database = 'TesteJanio'
+    Protocol = 'mssql'
+    left = 16
+    top = 16
+  end
+end
