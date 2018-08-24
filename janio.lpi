@@ -30,42 +30,57 @@
         <PackageName Value="LCL"/>
       </Item2>
     </RequiredPackages>
-    <Units Count="7">
+    <Units Count="10">
       <Unit0>
         <Filename Value="janio.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="forms\frmlogin.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form1"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="frmLogin"/>
-      </Unit1>
-      <Unit2>
         <Filename Value="models\usuario.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Usuario"/>
-      </Unit2>
-      <Unit3>
+      </Unit1>
+      <Unit2>
         <Filename Value="models\elemento.pas"/>
         <IsPartOfProject Value="True"/>
-      </Unit3>
-      <Unit4>
+      </Unit2>
+      <Unit3>
         <Filename Value="models\profissional.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Profissional"/>
-      </Unit4>
-      <Unit5>
+      </Unit3>
+      <Unit4>
         <Filename Value="models\especialidade.pas"/>
         <IsPartOfProject Value="True"/>
-      </Unit5>
-      <Unit6>
+      </Unit4>
+      <Unit5>
         <Filename Value="models\agenda.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="Agenda"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="controllers\contusuario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="contUsuario"/>
       </Unit6>
+      <Unit7>
+        <Filename Value="interfaces\controller.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="forms\frmprincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frmPrincipal"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="forms\frmlogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit9>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -76,7 +91,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="forms;models"/>
+      <OtherUnitFiles Value="forms;models;controllers;interfaces"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
